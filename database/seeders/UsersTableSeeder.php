@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'name' => 'ชัยวัฒน์',
-                'email' => 'jo@localhost.com',
+                'email' => 'jo@localhost',
                 'password' => Hash::make('11111111'), 
                 'created_at' => Carbon::now()->toDateString()
             ]
